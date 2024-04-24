@@ -86,7 +86,7 @@ typedef struct VideoParams
     VideoParams() {
         res = RESOLUTION::HD2K;
         fps = FPS::FPS_15;
-        verbose= sl_oc::VERBOSITY::ERROR;
+        verbose= sl_oc::VERBOSITY::INFO;
     }
 
     RESOLUTION res; //!< Camera resolution
